@@ -16,6 +16,6 @@
 
 for bg_color in {0..255}; do
   for fg_color in {0..255}; do
-    printf "`tput setaf $fg_color; tput setab $bg_color;`B:%s F:%s" $bg_color $fg_color
+    printf "\e[38;5;${fg_color};48;5;${bg_color}m[fg=$fg_color,bg=$bg_color]\e[0m"
   done
 done
