@@ -1,6 +1,6 @@
 # All Ansi 256 Colors
 
-I created this resource to help visualize the color options available for 256 color terminal emulators. The included HTML file offers a simple and quick way of scrolling through all possible foreground/background color combinations.
+I created this resource to help visualize the color options available for 256 color terminal emulators. The included ```all-ansi-colors-pretty.html``` file offers a simple and quick way of scrolling through all possible foreground/background color combinations.
 
 The included shell script was used to generate the combinations. The output of the script is rather large, it will print 256*256=65536 strings, each being escaped to show a different foreground/background color combination.
 
