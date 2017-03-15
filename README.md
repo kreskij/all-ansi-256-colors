@@ -7,9 +7,9 @@ The included ```all-ansi-colors-pretty.html``` file offers a simple and quick wa
 [Click here view the all-ansi-colors-pretty.html file](http://htmlpreview.github.io/?https://github.com/kreskij/all-ansi-256-colors/blob/master/all-ansi-256-colors-pretty.html)
 
 
-The shell script, ```all-ansi-256-colors.sh``` was used to generate generate the colour to console output. 
+The shell script, ```all-ansi-256-colors.sh``` was used to generate generate the all of the colours as console output. 
 
-The console output was converted to an HTML file for easy browsing using the following command (requires ansi2html):
+The console output was converted to an HTML file for easy browsing using the following commands (requires ansi2html):
 
 ```bash
 chmod +x all-ansi-256-colors.sh 
