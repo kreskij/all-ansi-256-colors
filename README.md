@@ -11,9 +11,14 @@ The shell script, ```all-ansi-256-colors.sh``` was used to generate generate the
 
 The console output was converted to an HTML file for easy browsing using the following command (requires ansi2html):
 
-```bash all-ansi-256-colors.sh | ansi2html > all-ansi-256-colors.html```
+```bash
+chmod +x all-ansi-256-colors.sh 
+# The following command may take a few seconds to a few minutes to run.
+./all-ansi-256-colors.sh | ansi2html > all-ansi-256-colors.html
+```
+
     
 A pre-generated HTML file is included in the repository ```all-ansi-256-colors.html```. The "pretty" version, ```all-ansi-256-colors-pretty.html``` includes buttons that you can click to toggle bold, italics, and underlines of the text since most terminal emulators support those styles.
 
 
-**Note:** Forground/Background colors 0-16 may not look that same in your setup becuae those colors are defined in terminal emulator settings.
+**Note:** Forground/Background colors 0-16 may not look that same in your setup because those colors are defined in terminal emulator settings.
