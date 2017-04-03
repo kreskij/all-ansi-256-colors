@@ -2,7 +2,9 @@
 
 I created this resource to help visualize the color options available for 256 color terminal emulators. 
 
-The included ```all-ansi-colors-pretty.html``` file offers a simple and quick way of scrolling through all of the 65536 possible ANSI 256-color foreground/background color combinations.
+The included ```all-ansi-colors-pretty.html``` file offers a simple and quick way of scrolling through all of the 65536 possible ANSI 256-color foreground/background color combinations. 
+
+Given that viewing ~65k color combinations takes lots of screen space and is resource intensive to output in a terminal emulator, it's best to view them in a web browser, hence the included HTML file:
 
 [Click here view the all-ansi-colors-pretty.html file](http://htmlpreview.github.io/?https://github.com/kreskij/all-ansi-256-colors/blob/master/all-ansi-256-colors-pretty.html)
 
@@ -21,4 +23,4 @@ chmod +x all-ansi-256-colors.sh
 A pre-generated HTML file is included in the repository ```all-ansi-256-colors.html```. The "pretty" version, ```all-ansi-256-colors-pretty.html``` includes buttons that you can click to toggle bold, italics, and underlines of the text since most terminal emulators support those styles.
 
 
-**Note:** Forground/Background colors 0-16 may not look that same in your setup because those colors are defined in terminal emulator settings.
+**Note:** Forground/Background colors 0-16 may not look the same in your setup because those colors are defined in terminal emulator settings.
